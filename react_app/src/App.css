@@ -1,0 +1,177 @@
+* {}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  background-color: #0D9276;
+  color: #12372A;
+  
+}
+
+
+.mainChat{
+  text-align: center;
+}
+
+.chatsList {
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+  height: 77vh;
+  background-color: #E3E1D9;
+  border-radius: 20px;
+  margin: 10px;
+  vertical-align: text-top;
+
+}
+
+.chat {
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: left;
+  width: 70%;
+  padding: 10px;
+  height: 77vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #E3E1D9;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.chat .top {
+  position: absolute;
+  top: 0;
+  background-color: rgb(237, 255, 233);
+  width: 70%;
+  margin: -10px;
+  padding: 10px;
+}
+
+.chatButton {
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+  background: #40A2E3;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.chatMessageInput {
+  height: 10%;
+  position: absolute;
+  bottom: 0vh;
+  padding: 10px;
+  width: 70%;
+  transform: translate(-10px, 0);
+}
+
+.chatMessageInput input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  color: #12372A;
+  border: none;
+}
+
+.chatMessageInput input :focus {
+  border: none;
+}
+
+.chatMessageInput button {
+  width: 10%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 5px;
+  background: #40A2E3;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F2EFE5;
+  
+  border-radius: 20px;
+  color: 0D9276;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid black;
+}
+
+.popup h3{
+  font-size: 30px;
+}
+.popup input{
+  color: #12372A;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  margin: 3px;
+}
+.popup button{
+  background-color: #40A2E3;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  margin: 3px;
+}
+.message, .myMessage {
+  background-color:#F2EFE5;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: max-content;
+  
+}
+
+.myMessage {
+  background-color: #0D9276;
+  color: white;
+}
+
+.loadbutton{
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 5px;
+  background: #40A2E3;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.top{
+  background-color: #E3E1D9;
+  color:#0D9276;
+  text-align: left;
+  padding: 10px;
+  width: auto;
+  margin: auto;
+}
+.top img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.top b {
+  vertical-align:middle;
+}
+
+.popup img{
+  height: 100px;
+  width: 100px;
+}
